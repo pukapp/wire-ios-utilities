@@ -74,12 +74,12 @@ static NSDictionary *apnsSettings = nil;
 
 - (NSString *)appIdentifier
 {
-    if (self.parser != nil && self.parser.team == ZMProvisionTeamEnterprise) {
+//    if (self.parser != nil && self.parser.team == ZMProvisionTeamEnterprise) {
         return apnsSettings[self.bundleId][ZMAPNSEnvironmentSettingsKeyCertificateName];
-    }
-    else {
-        return apnsSettings[@"prod"][ZMAPNSEnvironmentSettingsKeyCertificateName];
-    }
+//    }
+//    else {
+//        return apnsSettings[@"prod"][ZMAPNSEnvironmentSettingsKeyCertificateName];
+//    }
 }
 
 - (NSString *)transportTypeForTokenType:(ZMAPNSType)apnsType
