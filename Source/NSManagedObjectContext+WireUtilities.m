@@ -62,6 +62,7 @@ static NSTimeInterval const PerformWarningTimeout = 10;
     NSArray *groups = [self.dispatchGroupContext enterAllExcept:nil];
     ZMSTimePoint *tp = [ZMSTimePoint timePointWithInterval:PerformWarningTimeout];
     [self performBlock:^{
+        [NSThread currentThread].name = self.name;
         [tp resetTime];
         block();
         [self.dispatchGroupContext leaveGroups:groups];
