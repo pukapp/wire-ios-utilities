@@ -120,6 +120,7 @@
 		877F50211E729CCF00894C90 /* excessive_diacritics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 877F50201E729CCF00894C90 /* excessive_diacritics.txt */; };
 		87B6489C2076078A002FC9E7 /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6489B2076078A002FC9E7 /* Composition.swift */; };
 		87ECBDD51E78457C00596836 /* ExtremeCombiningCharactersValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ECBDD41E78457C00596836 /* ExtremeCombiningCharactersValidator.swift */; };
+		A0C64E202593564200DCFC46 /* Array+suffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C64E1F2593564200DCFC46 /* Array+suffix.swift */; };
 		A9CDCDC2237D9928008A9BC6 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDCDC1237D9927008A9BC6 /* UIColor+Hex.swift */; };
 		A9CDCDC4237D9A14008A9BC6 /* UIColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDCDC3237D9A14008A9BC6 /* UIColor+Mixing.swift */; };
 		A9CDCDC6237D9A6E008A9BC6 /* UIColor+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDCDC5237D9A6E008A9BC6 /* UIColor+Equatable.swift */; };
@@ -368,6 +369,7 @@
 		877F50201E729CCF00894C90 /* excessive_diacritics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = excessive_diacritics.txt; sourceTree = "<group>"; };
 		87B6489B2076078A002FC9E7 /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
 		87ECBDD41E78457C00596836 /* ExtremeCombiningCharactersValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtremeCombiningCharactersValidator.swift; sourceTree = "<group>"; };
+		A0C64E1F2593564200DCFC46 /* Array+suffix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+suffix.swift"; sourceTree = "<group>"; };
 		A9CDCDC1237D9927008A9BC6 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "Source/Public/UIColor+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		A9CDCDC3237D9A14008A9BC6 /* UIColor+Mixing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Mixing.swift"; sourceTree = "<group>"; };
 		A9CDCDC5237D9A6E008A9BC6 /* UIColor+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Equatable.swift"; sourceTree = "<group>"; };
@@ -708,6 +710,7 @@
 				8735AE6E2035E3BC00DCE66E /* StringLengthValidator.swift */,
 				5E0A1FF82105DBBA00949B3E /* Map+KeyPath.swift */,
 				EF2AFC9C228176C3008C921A /* UUID+Data.swift */,
+				A0C64E1F2593564200DCFC46 /* Array+suffix.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -1068,6 +1071,7 @@
 				EF18C7D21F9E37CA0085A832 /* String+Filename.swift in Sources */,
 				54181A541F594F6B00155ABC /* FileManager+Protection.swift in Sources */,
 				7C8BFFE522FD611700B3C8A5 /* ZMEmailAddressValidator.swift in Sources */,
+				A0C64E202593564200DCFC46 /* Array+suffix.swift in Sources */,
 				7C8BFFE322FD5D9600B3C8A5 /* ZMAccentColorValidator.swift in Sources */,
 				097E36C31B7B62150039CC4C /* NSLocale+Internal.m in Sources */,
 				F19E55A822B3AAF3005C792D /* Data+ReadableHash.swift in Sources */,
