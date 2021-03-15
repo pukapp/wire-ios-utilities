@@ -145,6 +145,7 @@
 		BFA2F03920C9490500EBE97C /* FunctionOperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2F03720C9484E00EBE97C /* FunctionOperatorTests.swift */; };
 		BFBAE9DB1E01A8F2003FCE49 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBAE9DA1E01A8F2003FCE49 /* String+Emoji.swift */; };
 		BFBAE9DD1E01A930003FCE49 /* String+EmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBAE9DC1E01A930003FCE49 /* String+EmojiTests.swift */; };
+		C40C0FDA25FF451600456778 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C0FD925FF451600456778 /* Date+Format.swift */; };
 		D504CD332090C2F200A78DAA /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504CD322090C2F200A78DAA /* Curry.swift */; };
 		D504CD352090C2F800A78DAA /* Papply.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504CD342090C2F800A78DAA /* Papply.swift */; };
 		D504CD372090CB2900A78DAA /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504CD362090CB2900A78DAA /* Flip.swift */; };
@@ -393,6 +394,7 @@
 		BFA2F03720C9484E00EBE97C /* FunctionOperatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionOperatorTests.swift; sourceTree = "<group>"; };
 		BFBAE9DA1E01A8F2003FCE49 /* String+Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
 		BFBAE9DC1E01A930003FCE49 /* String+EmojiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EmojiTests.swift"; sourceTree = "<group>"; };
+		C40C0FD925FF451600456778 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
 		D504CD322090C2F200A78DAA /* Curry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
 		D504CD342090C2F800A78DAA /* Papply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papply.swift; sourceTree = "<group>"; };
 		D504CD362090CB2900A78DAA /* Flip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flip.swift; sourceTree = "<group>"; };
@@ -589,6 +591,7 @@
 				EE1E354121E7739400F1144B /* DarwinNotificationCenter.swift */,
 				16B75F65222EDC5000DCAFF2 /* String+Stripping.swift */,
 				5E9EA4C022423E0300D401B2 /* Array+SafeIndex.swift */,
+				C40C0FD925FF451600456778 /* Date+Format.swift */,
 				5E39FC53225B37EC00C682B8 /* Password */,
 			);
 			path = Source;
@@ -1055,6 +1058,7 @@
 				BFA2F03620C9480A00EBE97C /* FunctionOperators.swift in Sources */,
 				54024FE61DF81C8E009BF6A0 /* Dictionary.swift in Sources */,
 				54CA313D1B74F36B00B820C0 /* SwiftDebugging.swift in Sources */,
+				C40C0FDA25FF451600456778 /* Date+Format.swift in Sources */,
 				EECE92301FFBC5540096387F /* FixedWidthInteger+Random.swift in Sources */,
 				5E0A1FF92105DBBA00949B3E /* Map+KeyPath.swift in Sources */,
 				3E88BE3D1B1F478200232589 /* ZMDebugHelpers.m in Sources */,
